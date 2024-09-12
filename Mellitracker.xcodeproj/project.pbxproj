@@ -15,6 +15,8 @@
 		B3850B962C93AF7500F400C0 /* MellitrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3850B952C93AF7500F400C0 /* MellitrackerTests.swift */; };
 		B3850BA02C93AF7500F400C0 /* MellitrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3850B9F2C93AF7500F400C0 /* MellitrackerUITests.swift */; };
 		B3850BA22C93AF7500F400C0 /* MellitrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3850BA12C93AF7500F400C0 /* MellitrackerUITestsLaunchTests.swift */; };
+		B3850BB12C93B08A00F400C0 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B3850BB02C93B08A00F400C0 /* Localizable.xcstrings */; };
+		B3850BB32C93B09F00F400C0 /* String+LocalizedKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3850BB22C93B09F00F400C0 /* String+LocalizedKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B3850B9B2C93AF7500F400C0 /* MellitrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MellitrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3850B9F2C93AF7500F400C0 /* MellitrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MellitrackerUITests.swift; sourceTree = "<group>"; };
 		B3850BA12C93AF7500F400C0 /* MellitrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MellitrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3850BB02C93B08A00F400C0 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		B3850BB22C93B09F00F400C0 /* String+LocalizedKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+LocalizedKey.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 		B3850BAE2C93AFFC00F400C0 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
+				B3850BB02C93B08A00F400C0 /* Localizable.xcstrings */,
+				B3850BB22C93B09F00F400C0 /* String+LocalizedKey.swift */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 			files = (
 				B3850B882C93AF7500F400C0 /* Assets.xcassets in Resources */,
 				B3850B8B2C93AF7500F400C0 /* Base in Resources */,
+				B3850BB12C93B08A00F400C0 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +279,7 @@
 			files = (
 				B3850B832C93AF7200F400C0 /* ViewController.swift in Sources */,
 				B3850B7F2C93AF7200F400C0 /* AppDelegate.swift in Sources */,
+				B3850BB32C93B09F00F400C0 /* String+LocalizedKey.swift in Sources */,
 				B3850B812C93AF7200F400C0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
