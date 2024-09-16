@@ -101,9 +101,9 @@
 		B3850B7D2C93AF7200F400C0 /* Mellitracker */ = {
 			isa = PBXGroup;
 			children = (
+				B3850BCE2C98F23500F400C0 /* Screens */,
 				B3850BAF2C93B00100F400C0 /* AppDelegate */,
 				B3850BAE2C93AFFC00F400C0 /* Localization */,
-				B3850B822C93AF7200F400C0 /* ViewController.swift */,
 				B3850B872C93AF7500F400C0 /* Assets.xcassets */,
 				B3850B892C93AF7500F400C0 /* LaunchScreen.storyboard */,
 				B3850B8C2C93AF7500F400C0 /* Info.plist */,
@@ -144,6 +144,30 @@
 				B3850B802C93AF7200F400C0 /* SceneDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B3850BCE2C98F23500F400C0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B3850BCF2C98F23E00F400C0 /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B3850BCF2C98F23E00F400C0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B3850BD02C98F24300F400C0 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B3850BD02C98F24300F400C0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3850B822C93AF7200F400C0 /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
